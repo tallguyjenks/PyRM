@@ -1,7 +1,7 @@
 
 # Created by https://www.gitignore.io/api/windows,macos,linux,git,python
 
-#.vscode/
+.vscode/
 
 ### Git ###
 *.orig
