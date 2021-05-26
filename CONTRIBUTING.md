@@ -14,7 +14,7 @@ Every little bit helps, and credit will always be given.
 
 ---
 
-1. Start a [Discussion](https://github.com/tallguyjenks/PyRM/discussions) about your proposed changes.
+1. Start a [Discussion][0] about your proposed changes.
 2. Create a [new project issue][1]! Try to be as descriptive as possible.
 
 ---
@@ -23,7 +23,7 @@ Every little bit helps, and credit will always be given.
 
 ---
 
-Create a [new merge/pull request][2]! Make sure to follow the guidelines.
+Create a [new merge/pull request][2]! Make sure to follow the guidelines:
 
 ---
 
@@ -32,7 +32,7 @@ Create a [new merge/pull request][2]! Make sure to follow the guidelines.
 ---
 
 1. Make sure to have atomic commits and contextual commit messages
-2. Squash commits before a pull request
+2. Make it easy to understand what you changed, and why
 
 ---
 
@@ -48,5 +48,6 @@ I'll try to be as responsive as possible in reviewing and accepting pull request
 
 I appreciate your contributions very much!
 
+[0]: https://github.com/tallguyjenks/PyRM/discussions
 [1]: https://github.com/tallguyjenks/PyRM/issues/new
 [2]: https://github.com/tallguyjenks/PyRM/compare
