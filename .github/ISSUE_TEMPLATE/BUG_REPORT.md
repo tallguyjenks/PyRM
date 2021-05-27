@@ -10,8 +10,6 @@ assignees: ""
 
 # Bug report
 
-<!-- markdownlint-enable MD025-->
-
 Create a report to help us improve
 
 ---

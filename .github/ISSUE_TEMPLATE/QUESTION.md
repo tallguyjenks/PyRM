@@ -10,6 +10,8 @@ assignees: ""
 
 ---
 
+<!-- markdownlint-disable MD036-->
+
 **DO NOT ASK QUESTIONS HERE**
 
 Please use [GitHub Discussions](https://github.com/tallguyjenks/PyRM/discussions)

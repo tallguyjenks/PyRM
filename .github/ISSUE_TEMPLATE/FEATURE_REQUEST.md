@@ -9,8 +9,6 @@ assignees: ""
 <!-- markdownlint-disable MD025-->
 # Feature request
 
-<!-- markdownlint-enable MD025-->
-
 Suggest an idea for this project
 
 ---
