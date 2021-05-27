@@ -18,3 +18,6 @@ labelMappings:
   "[!]": invalid
   "[?]": question 
   "[wont]": wontfix
+  "[001]": v0.0.1
+  "[002]": v0.0.2
+  "[003]": v0.0.3
