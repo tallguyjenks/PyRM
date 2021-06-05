@@ -11,7 +11,7 @@ caseSensitive: false
 labelMappings:
   "[bug]": bug
   "[doc]": documentation
-  "[dupe]": duplicate
+  "[dup]": duplicate
   "[enh]": enhancement
   "[1]": good first issue
   "[help]": help wanted
