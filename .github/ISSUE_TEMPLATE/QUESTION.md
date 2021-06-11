@@ -1,7 +1,7 @@
 ---
 name: Question
 about: Ask a general question about how to use the project
-title: ""
+title: "❓️: "
 labels: question
 assignees: ""
 ---

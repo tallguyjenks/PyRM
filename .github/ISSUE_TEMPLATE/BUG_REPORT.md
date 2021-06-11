@@ -1,7 +1,7 @@
 ---
 name: Bug Report
 about: Notify us of issues to help us improve
-title: ""
+title: "🐛️: "
 labels: bug
 assignees: ""
 ---
