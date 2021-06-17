@@ -18,11 +18,13 @@ To establish a new planned release:
 
 ---
 
-1. Make a new branch off of `dev` (Gitlens and git aliases help with this)
-2. Make Granular Commits
-3. Keep Pull Requests small in scope (like a single feature per PR) to make approval and refactoring easier.
-4. Use [Emoji-Log][5] style commit messages AND Pull Request Title's to visually indicate type of work and reduce cognitive load.
-5. Open Pull Request and pass all requirements, make any requested modifications, when ready to merge, Squash merge for a cleaner working tree
+1. Assign the issue to yourself to begin work on it
+2. Create a `feature` branch off of the `dev` branch. `git switch -c feature dev`
+3. Make sure to have atomic commits and contextual commit messages using [Emoji-Log][5] for both the commit messages, and pull request titles.
+4. Keep Pull Requests small in scope (like a single feature per PR) to make approval and refactoring easier.
+5. Push your local `feature` branch to your remote repository on github `git push -u origin feature`
+6. Open a [new merge/pull request][6] and in your pull request reference the issue the pull request is for by it's number, ex: `resolves #11`
+7. Pull Request must pass Linting, Unit Tests, and any other checks for a passing build to be considered ready for manual review and feedback.
 
 ---
 
@@ -33,8 +35,8 @@ To establish a new planned release:
 When making a new release:
 
 1. Push to the `dev` branch
-2. If all tests pass merge to `release` branch
-3. When ready to initiate final release, merge `release` into `prod`
+2. If all tests pass merge to `prod` branch
+3. When ready to initiate final release, merge `prod` into `release`
 4. [Tag][3] the merge commit hash with the new version number
 5. Update [ROADMAP](../ROADMAP.md) on status of tags/releases
 6. Check the release drafter documentation
@@ -49,3 +51,4 @@ When making a new release:
 [3]: https://github.com/tallguyjenks/PyRM/tags
 [4]: https://github.com/tallguyjenks/PyRM/milestones
 [5]: https://github.com/ahmadawais/Emoji-Log
+[6]: https://github.com/tallguyjenks/PyRM/compare

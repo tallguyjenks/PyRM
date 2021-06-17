@@ -1,5 +1,6 @@
 # PyRM
 
+<!-- markdownlint-disable MD033-->
 <!-- Header & Preview Image -->
 
 <h1 align="center">
@@ -162,7 +163,7 @@ See [CONTRIBUTING](#contributing)
 
 <++>
 
-See [CONTRIBUTING](CONTRIBUTING.md)
+See [Road Map](ROADMAP.md)
 
 ---
 
