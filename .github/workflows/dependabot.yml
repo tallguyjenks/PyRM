@@ -10,7 +10,7 @@ updates:
     open-pull-requests-limit: 10
 
   # Maintain dependencies for python with poetry
-  - package-ecosystem: "poetry"
+  - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "weekly"
