@@ -6,12 +6,39 @@ updates:
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 10
+    assignees:
+      - "dependabot"
+    # Include a list of updated dependencies
+    # with a prefix determined by the dependency group
+    commit-message:
+      prefix: "GitHub Actions"
+      include: "scope"
+    # Specify labels for npm pull requests
+    labels: "dependencies"
+    # Add reviewers
+    reviewers: "tallguyjenks"
+    # to pip against the `develop` branch
+    target-branch: "prod"
 
   # Maintain dependencies for python with poetry
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 10
+    assignees:
+      - "dependabot"
+    # Include a list of updated dependencies
+    # with a prefix determined by the dependency group
+    commit-message:
+      prefix: "pip prod"
+      prefix-development: "pip dev"
+      include: "scope"
+    # Specify labels for npm pull requests
+    labels: "dependencies"
+    # Add reviewers
+    reviewers: "tallguyjenks"
+    # to pip against the `develop` branch
+    target-branch: "prod"
