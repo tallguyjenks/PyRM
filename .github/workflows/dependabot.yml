@@ -1,6 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: github-actions
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "live"
@@ -10,7 +10,7 @@ updates:
     # Include a list of updated dependencies
     # with a prefix determined by the dependency group
     commit-message:
-      prefix: "GitHub Actions"
+      prefix: "[DEPENDABOT] GitHub Actions"
       include: "scope"
     # Specify labels for npm pull requests
     labels: "dependencies"
@@ -30,8 +30,8 @@ updates:
     # Include a list of updated dependencies
     # with a prefix determined by the dependency group
     commit-message:
-      prefix: "pip prod"
-      prefix-development: "pip dev"
+      prefix: "[DEPENDABOT] pip prod"
+      prefix-development: "[DEPENDABOT] pip dev"
       include: "scope"
     # Specify labels for npm pull requests
     labels: "dependencies"
