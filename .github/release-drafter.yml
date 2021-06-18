@@ -12,7 +12,7 @@ categories:
   - title: "🛠️ Maintenance"
     labels:
       - "maintenance"
-  - title: "📝️ Documentation"
+  - title: "📖️ Documentation"
     labels:
       - "documentation"
 version-resolver:

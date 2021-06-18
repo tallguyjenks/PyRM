@@ -1,5 +1,6 @@
 # PyRM
 
+<!-- markdownlint-disable MD033-->
 <!-- Header & Preview Image -->
 
 <h1 align="center">
@@ -11,13 +12,19 @@
   <a href="https://github.com/tallguyjenks/PyRM/blob/master/LICENSE">
     <img src="https://img.shields.io/static/v1.svg?style=flat&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=black&colorB=green"/>
   </a>
+  <a href="https://github.com/psf/black">
+    <img src="https://img.shields.io/badge/code%20style-black-000000.svg"/>
+  </a>
   <img src="https://img.shields.io/github/commit-activity/m/tallguyjenks/PyRM">
   <a href="https://github.com/tallguyjenks/PyRM/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/tallguyjenks/PyRM">
+    <img src="https://img.shields.io/github/contributors/tallguyjenks/PyRM"/>
   </a>
   <img src="https://img.shields.io/github/v/release/tallguyjenks/PyRM">
   <a href="https://wakatime.com/badge/github/tallguyjenks/PyRM">
-    <img src="https://wakatime.com/badge/github/tallguyjenks/PyRM.svg"> 
+    <img src="https://wakatime.com/badge/github/tallguyjenks/PyRM.svg"/>
+  </a>
+  <a href="https://github.com/marketplace/actions/super-linter">
+    <img src="https://github.com/tallguyjenks/PyRM/workflows/Lint%20Code%20Base/badge.svg"/>
   </a>
 </p>
 
@@ -165,7 +172,7 @@ See [CONTRIBUTING](#contributing)
 
 <++>
 
-See [CONTRIBUTING](CONTRIBUTING.md)
+See [Road Map](ROADMAP.md)
 
 ---
 

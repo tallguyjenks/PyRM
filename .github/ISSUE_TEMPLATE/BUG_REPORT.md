@@ -1,7 +1,7 @@
 ---
 name: Bug Report
 about: Notify us of issues to help us improve
-title: ""
+title: "🐛️: "
 labels: bug
 assignees: ""
 ---
@@ -9,8 +9,6 @@ assignees: ""
 <!-- markdownlint-disable MD025-->
 
 # Bug report
-
-<!-- markdownlint-enable MD025-->
 
 Create a report to help us improve
 
