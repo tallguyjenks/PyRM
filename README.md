@@ -16,6 +16,9 @@
     <img src="https://img.shields.io/github/contributors/tallguyjenks/PyRM">
   </a>
   <img src="https://img.shields.io/github/v/release/tallguyjenks/PyRM">
+  <a href="https://wakatime.com/badge/github/tallguyjenks/PyRM">
+    <img src="https://wakatime.com/badge/github/tallguyjenks/PyRM.svg"> 
+  </a>
 </p>
 
 <!-- Description -->
