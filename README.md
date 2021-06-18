@@ -18,7 +18,10 @@
   </a>
   <img src="https://img.shields.io/github/v/release/tallguyjenks/PyRM">
   <a href="https://wakatime.com/badge/github/tallguyjenks/PyRM">
-    <img src="https://wakatime.com/badge/github/tallguyjenks/PyRM.svg"> 
+    <img src="https://wakatime.com/badge/github/tallguyjenks/PyRM.svg">
+  </a>
+  <a href="https://github.com/marketplace/actions/super-linter">
+    <img src="https://github.com/tallguyjenks/PyRM/workflows/Lint%20Code%20Base/badge.svg">
   </a>
 </p>
 

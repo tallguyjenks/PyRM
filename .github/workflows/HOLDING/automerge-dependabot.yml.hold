@@ -43,7 +43,7 @@ jobs:
         id: wait-for-ci
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          checkName: Stack linter
+          checkName: Lint Code Base
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
 
       - name: merge

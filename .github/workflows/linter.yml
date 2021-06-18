@@ -16,6 +16,7 @@ name: Lint Code Base
 #############################
 on:
   push:
+    branches: [dev, prod, release]
   pull_request:
     branches: [dev, prod, release]
 
@@ -45,9 +46,19 @@ jobs:
       ################################
       # Run Linter against code base #
       ################################
+      # - name: Lint Code Base
+      #   uses: github/super-linter@v4
+      #   env:
+      #     VALIDATE_ALL_CODEBASE: false
+      #     DEFAULT_BRANCH: prod
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ################################
+      # Run Linter against code base #
+      ################################
       - name: Lint Code Base
-        uses: github/super-linter@v4
+        uses: docker://ghcr.io/github/super-linter:slim-v4
         env:
           VALIDATE_ALL_CODEBASE: false
-          DEFAULT_BRANCH: dev
+          DEFAULT_BRANCH: prod
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
