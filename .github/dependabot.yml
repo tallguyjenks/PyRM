@@ -5,18 +5,12 @@ updates:
     schedule:
       interval: "live"
     open-pull-requests-limit: 10
-    assignees:
-      - "dependabot"
-    # Include a list of updated dependencies
-    # with a prefix determined by the dependency group
+    assignees: "dependabot"
     commit-message:
       prefix: "[DEPENDABOT] GitHub Actions"
       include: "scope"
-    # Specify labels for npm pull requests
     labels: "dependencies"
-    # Add reviewers
     reviewers: "tallguyjenks"
-    # to pip against the `develop` branch
     target-branch: "prod"
 
   # Maintain dependencies for python with poetry
@@ -25,17 +19,11 @@ updates:
     schedule:
       interval: "live"
     open-pull-requests-limit: 10
-    assignees:
-      - "dependabot"
-    # Include a list of updated dependencies
-    # with a prefix determined by the dependency group
+    assignees: "dependabot"
     commit-message:
       prefix: "[DEPENDABOT] pip prod"
       prefix-development: "[DEPENDABOT] pip dev"
       include: "scope"
-    # Specify labels for npm pull requests
     labels: "dependencies"
-    # Add reviewers
     reviewers: "tallguyjenks"
-    # to pip against the `develop` branch
     target-branch: "prod"
