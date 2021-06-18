@@ -61,9 +61,9 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: prod
           LOG_LEVEL: WARN
-          PYTHON_BLACK_CONFIG_FILE: pyproject.toml
+          PYTHON_BLACK_CONFIG_FILE: /pyproject.toml
           PYTHON_FLAKE8_CONFIG_FILE: .flake8
-          PYTHON_ISORT_CONFIG_FILE: pyproject.toml
+          PYTHON_ISORT_CONFIG_FILE: /pyproject.toml
           FILTER_REGEX_EXCLUDE: '.*(\.github|\.vscode).*'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
