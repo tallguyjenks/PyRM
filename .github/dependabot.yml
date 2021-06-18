@@ -6,10 +6,10 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 10
     commit-message:
-      prefix: "[DEPENDABOT] GitHub Actions"
+      prefix: "[DEPENDABOT] G:"
       include: "scope"
-    labels: "dependencies"
-    reviewers: "tallguyjenks"
+    labels: [ "dependencies" ]
+    reviewers: [ "tallguyjenks" ]
 
   # Maintain dependencies for python with poetry
   - package-ecosystem: "pip"
@@ -18,8 +18,8 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 10
     commit-message:
-      prefix: "[DEPENDABOT] pip prod"
-      prefix-development: "[DEPENDABOT] pip dev"
+      prefix: "[DEPENDABOT] P:"
+      prefix-development: "[DEPENDABOT] D:"
       include: "scope"
-    labels: "dependencies"
-    reviewers: "tallguyjenks"
+    labels: [ "dependencies" ]
+    reviewers: [ "tallguyjenks" ]
