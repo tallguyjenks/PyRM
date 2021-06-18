@@ -3,27 +3,23 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "live"
+      interval: "daily"
     open-pull-requests-limit: 10
-    assignees: "dependabot"
     commit-message:
       prefix: "[DEPENDABOT] GitHub Actions"
       include: "scope"
     labels: "dependencies"
     reviewers: "tallguyjenks"
-    target-branch: "prod"
 
   # Maintain dependencies for python with poetry
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: "live"
+      interval: "daily"
     open-pull-requests-limit: 10
-    assignees: "dependabot"
     commit-message:
       prefix: "[DEPENDABOT] pip prod"
       prefix-development: "[DEPENDABOT] pip dev"
       include: "scope"
     labels: "dependencies"
     reviewers: "tallguyjenks"
-    target-branch: "prod"
