@@ -1,6 +1,7 @@
 #################################
 # GitHub Dependabot Config info #
 #################################
+name: "dependabot"
 version: 2
 updates:
   - package-ecosystem: github-actions
