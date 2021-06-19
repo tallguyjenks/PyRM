@@ -19,7 +19,7 @@ updates:
     open-pull-requests-limit: 10
     commit-message:
       prefix: "🤖️ PROD: "
-      prefix-development: "🤖️ dev: "
+      prefix-development: "🤖️ DEV: "
       include: "scope"
     labels: [ "dependencies" ]
     reviewers: [ "tallguyjenks" ]
