@@ -18,7 +18,7 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 10
     commit-message:
-      prefix: "🤖️ prod: "
+      prefix: "🤖️ PROD: "
       prefix-development: "🤖️ dev: "
       include: "scope"
     labels: [ "dependencies" ]
