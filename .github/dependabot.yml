@@ -6,7 +6,7 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 10
     commit-message:
-      prefix: "[DEPENDABOT] G:"
+      prefix: "🤖️ GH Actions "
       include: "scope"
     labels: [ "dependencies" ]
     reviewers: [ "tallguyjenks" ]
@@ -18,8 +18,8 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 10
     commit-message:
-      prefix: "[DEPENDABOT] P:"
-      prefix-development: "[DEPENDABOT] D:"
+      prefix: "🤖️ prod: "
+      prefix-development: "🤖️ dev: "
       include: "scope"
     labels: [ "dependencies" ]
     reviewers: [ "tallguyjenks" ]
