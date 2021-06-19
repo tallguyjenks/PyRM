@@ -42,4 +42,4 @@ line_length = 88
 multi_line_output = 3
 include_trailing_comma = true
 skip_glob = [ "docs", "notes" ]
-known_third_party = ["logger", "mypackage"]
+known_third_party = ["logger", "mymodule", "rich"]

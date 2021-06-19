@@ -1,9 +1,96 @@
 <mxfile>
-    <diagram id="Cl_KeW_Vac7Idd6Jxsqt" name="Page-1">
-        <mxGraphModel dx="1165" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <diagram id="Cl_KeW_Vac7Idd6Jxsqt" name="Roadmap">
+        <mxGraphModel dx="2569" dy="2309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;labelBackgroundColor=none;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="235" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Process Step" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;labelBackgroundColor=none;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="325" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Decision" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;labelBackgroundColor=none;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="545" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;labelBackgroundColor=none;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="455" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Document" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;labelBackgroundColor=none;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="675" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Annotation" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;labelBackgroundColor=none;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="765" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="235" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Process Step" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="325" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Decision" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="545" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="455" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Document" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="675" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Annotation" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;" vertex="1" parent="1">
+                    <mxGeometry x="195" y="765" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="235" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Process Step" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="325" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Decision" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="545" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="455" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Document" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="675" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Annotation" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="765" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Items that have &lt;br&gt;been completed" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;shadow=0;labelBackgroundColor=none;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;rotation=-90;horizontal=1;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="135" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Items currently&lt;br&gt;being worked on" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;shadow=0;labelBackgroundColor=none;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry x="195" y="135" width="50" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Items not &lt;br&gt;yet started" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;shadow=0;labelBackgroundColor=none;fontFamily=Fira Code;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="135" width="50" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="ikhdjFVZzwXGKRSANnnM" name="DatabaseArchitecture">
+        <mxGraphModel dx="899" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="RwS3mu5lVU944JGxbMb5-0"/>
+                <mxCell id="RwS3mu5lVU944JGxbMb5-1" parent="RwS3mu5lVU944JGxbMb5-0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="Wj4Gb0Ivf1w7f2tX7wph" name="Userflow">
+        <mxGraphModel dx="899" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="6O7M7uCPMORrKav0icln-0"/>
+                <mxCell id="6O7M7uCPMORrKav0icln-1" parent="6O7M7uCPMORrKav0icln-0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="SiqatgC7biSwTXhV4qrO" name="WireFrame">
+        <mxGraphModel dx="899" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="7SEWNUR8R_JEVMjCkIQH-0"/>
+                <mxCell id="7SEWNUR8R_JEVMjCkIQH-1" parent="7SEWNUR8R_JEVMjCkIQH-0"/>
             </root>
         </mxGraphModel>
     </diagram>

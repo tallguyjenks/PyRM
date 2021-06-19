@@ -46,6 +46,14 @@ jobs:
           checkName: Lint Code Base
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
 
+      - name: Wait for CI/CT/CD to succeed pt3
+        uses: fountainhead/action-wait-for-check@v1.0.0
+        id: wait-for-ql
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          checkName: CodeQL
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+
       - name: merge
         if: steps.wait-for-build.outputs.conclusion == 'success' || steps.wait-for-build.outputs.conclusion == 'skipped' && steps.wait-for-ci.outputs.conclusion == 'success'
         uses: actions/github-script@v3
