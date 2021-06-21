@@ -1,3 +1,4 @@
+# TODO add doc string for module
 import logger
 
 # This will create the log file if it doesn't yet exist
