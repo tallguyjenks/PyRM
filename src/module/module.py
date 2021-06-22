@@ -6,6 +6,6 @@ log = logger.get_logger(__name__)
 
 
 # TODO DocString for this func
-def multiply(num1, num2):
+def multiply(num1: int, num2: int) -> int:
     log.debug("Executing multiply function.")
     return num1 * num2

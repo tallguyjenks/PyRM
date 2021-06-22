@@ -7,9 +7,13 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+rich = "^10.4.0"
+logging = "^0.4.9"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.13.0"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
@@ -39,7 +43,7 @@ line_length = 88
 multi_line_output = 3
 include_trailing_comma = true
 skip_glob = [ "docs", "notes" ]
-known_third_party = ["logger", "mymodule", "rich"]
+known_third_party = ["logger", "mymodule", "pytest", "rich"]
 
 [tool.vulture]
 exclude = []

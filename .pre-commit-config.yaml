@@ -62,3 +62,11 @@ repos:
     - id: no-commit-to-branch
       log_file: src/logs/hooks.log
       args: [--branch, prod]
+  - repo: local
+    hooks:
+    - id: pytest-cov
+      name: pytest-cov
+      entry: poetry run pytest --cov src --cov-report html
+      language: system
+      pass_filenames: false
+      always_run: true
