@@ -11,7 +11,7 @@ python = "^3.9"
 [tool.poetry.dev-dependencies]
 flake8 = "^3.9.2"
 black = "^21.6b0"
-isort = "^5.8.0"
+isort = "^5.9.1"
 pre-commit = "^2.13.0"
 
 [build-system]
