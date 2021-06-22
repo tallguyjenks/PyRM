@@ -5,7 +5,8 @@ exclude =
     .git,
     __pycache__,
     build,
-    dist
+    dist,
+    reports
 select = B,C,E,F,W,T4,B9
 ignore =
     E203, # E203: whitespace before ‘:’
