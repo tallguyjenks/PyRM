@@ -1,6 +1,6 @@
 import pytest
 
-from .module import multiply
+from src.module.module import multiply
 
 # content of test_sample.py
 
