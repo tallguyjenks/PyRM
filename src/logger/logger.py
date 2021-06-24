@@ -3,7 +3,7 @@ import logging
 
 from rich.logging import RichHandler
 
-APP_LOGGER_NAME = "PyRM"
+APP_LOGGER_NAME = "pyrm"
 
 # TODO DocString for this func
 def setup_applevel_logger(logger_name=APP_LOGGER_NAME, file_name=None):  # noqa: E302
