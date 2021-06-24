@@ -43,6 +43,9 @@ try:
         _log.handlers.clear()
         _log.addHandler(_shell_handler)
         _log.debug("Log File Found at /logs/app.log")
+        _log.debug(f"{file}")
 except FileNotFoundError:
-    print("Sorry the file we're looking for doesn't exist")
+    with open("logs/app.log", "w+"):
+        # TODO LEV G
+        pass
     exit()
