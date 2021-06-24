@@ -31,8 +31,10 @@ repos:
     hooks:
     - id: trailing-whitespace
       log_file: logs/hooks.log
+      exclude: img/interrogate_badge.svg
     - id: end-of-file-fixer
       log_file: logs/hooks.log
+      exclude: img/interrogate_badge.svg
     - id: check-docstring-first
       log_file: logs/hooks.log
     - id: requirements-txt-fixer
@@ -94,8 +96,10 @@ repos:
     rev: 2.3.5
     hooks:
     - id: editorconfig-checker
-  # - repo: local
-  #   hooks:
+  - repo: https://github.com/econchick/interrogate
+    rev: 1.4.0
+    hooks:
+    - id: interrogate
   #   - id: pytest-cov
   #     log_file: logs/hooks.log
   #     name: pytest-cov
