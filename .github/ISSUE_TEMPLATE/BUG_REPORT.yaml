@@ -51,7 +51,7 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
- - type: checkboxes
+  - type: checkboxes
     id: agreements
     attributes:
       label: Agreements
