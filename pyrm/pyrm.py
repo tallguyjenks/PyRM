@@ -1,4 +1,5 @@
-"""This is the main function entry point of the application
+"""
+This is the main function entry point of the application
 TODO this section needs to be more copiously documented
 """
 
