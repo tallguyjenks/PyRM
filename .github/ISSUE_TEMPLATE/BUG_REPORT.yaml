@@ -51,6 +51,10 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+ - type: checkboxes
+    id: agreements
+    attributes:
+      label: Agreements
       description: By submitting this issue, you agree that you have provided and performed the following
       options:
         - label: I have provided the necessary information about my bug report
