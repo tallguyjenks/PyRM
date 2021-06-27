@@ -51,7 +51,6 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
-            label: Code of Conduct
       description: By submitting this issue, you agree that you have provided and performed the following
       options:
         - label: I have provided the necessary information about my bug report
