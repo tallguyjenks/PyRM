@@ -26,6 +26,9 @@
   <a href="https://github.com/marketplace/actions/super-linter">
     <img src="https://github.com/tallguyjenks/PyRM/workflows/Lint%20Code%20Base/badge.svg"/>
   </a>
+  <a href="https://interrogate.readthedocs.io/en/latest/">
+    <img src="img/interrogate_badge.svg"/>
+  </a>
 </p>
 
 <!-- Description -->
