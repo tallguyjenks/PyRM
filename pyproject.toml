@@ -42,8 +42,8 @@ exclude = '''
 line_length = 88
 multi_line_output = 3
 include_trailing_comma = true
-skip_glob = [ "docs", "notes" ]
-known_third_party = ["loguru"]
+skip_glob = [ "docs", "notes", "img" ]
+known_third_party = ["loguru", "pytest"]
 
 [tool.vulture]
 exclude = []
