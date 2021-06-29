@@ -29,6 +29,9 @@
   <a href="https://interrogate.readthedocs.io/en/latest/">
     <img src="img/interrogate_badge.svg"/>
   </a>
+  <a href="https://github.com/tallguyjenks/PyRM/pulls">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests">
+  </a>
 </p>
 
 <!-- Description -->
