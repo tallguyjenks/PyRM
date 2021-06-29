@@ -44,7 +44,7 @@ jobs:
         python-version: 3.9
 
     - name: Update pip
-      run: python3 -m pip3 install --upgrade pip3
+      run: python -m pip install --upgrade pip
 
     - name: Setup Poetry
       uses: abatilo/actions-poetry@v2.0.0
@@ -61,7 +61,9 @@ jobs:
       uses: alexanderdamiani/pytester-cov@v1.2.0
       with:
         pytest-root-dir: '.'
+        pytest-tests-dir: 'tests/'
         cov-omit-list: ''
+        requirements-file: 'requirements.txt'
         cov-threshold-single: ${{ env.COVERAGE_SINGLE }}
         cov-threshold-total: ${{ env.COVERAGE_TOTAL }}
 
@@ -88,7 +90,7 @@ jobs:
         title: Pytest coverage total falls below minimum ${{ env.COVERAGE_TOTAL }}
         token: ${{secrets.GITHUB_TOKEN}}
         assignees: ${{github.actor}}
-        labels: worflow-failed
+        labels: workflow-failed
         body: ${{ steps.pytester-cov.outputs.output-table }}
 
     - name: Coverage total fail - exit
