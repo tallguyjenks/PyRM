@@ -1,4 +1,4 @@
-name: documentation
+name: Documentation
 description: File an issue regarding documentation
 title: "📖️: "
 labels: ["📖️ documentation", "🚦️ status: awaiting triage"]
