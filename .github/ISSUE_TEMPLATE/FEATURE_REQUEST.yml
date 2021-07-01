@@ -1,7 +1,7 @@
 name: Feature Request
 description: Request A Feature
 title: "📦: "
-labels: ["✨ goal: improve", "🚦️ status: awaiting triage"]
+labels: ["✨️ goal: improve", "🚦️ status: awaiting triage"]
 #assignees:
 #  - octocat
 body:
