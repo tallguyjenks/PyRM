@@ -1,14 +1,14 @@
-name: 🐛️ Bug Report
-description: File a bug report
-title: "🐛️: "
-labels: ["🐛️ goal: fix", "🚦️ status: awaiting triage"]
+name: 📖️ Documentation
+description: File an issue regarding documentation
+title: "📖️: "
+labels: ["📖 documentation", "🚦️ status: awaiting triage"]
 #assignees:
 #  - octocat
 body:
   - type: markdown
     attributes:
       value: |
-        > Thanks for taking the time to fill out this bug report!
+        > Thanks for taking the time to help us improve our documentation!
   - type: input
     id: contact
     attributes:
@@ -17,32 +17,33 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: textarea
-    id: what-happened
+  - type: checkboxes
+    id: type-of-change
     attributes:
-      label: What happened?
-      description: Please provide a clear and concise description of what the bug is and what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: What type of documentation change?
+      description: Let us know what type of change to the repo documentation this issues is regarding
       options:
-        - 0.0.1
-        - 0.0.2
-        - 0.0.3
+        - label: There is missing documentation where there should be something (pick at least 1)
+          required: false
+        - label: There's a typo
+          required: false
+        - label: Something is incorrect
+          required: false
+        - label: Suggestion on documentation improvement
+          required: false
+        - label: Something should be removed
+          required: false
+        - label: Other?
+          required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe The Change
+      description: Please provide a clear and concise description of what the requested change is?
+      placeholder: Thank you for your contribution!
+      value: "Let us know!"
     validations:
       required: true
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell 
   - type: checkboxes
     id: terms
     attributes:

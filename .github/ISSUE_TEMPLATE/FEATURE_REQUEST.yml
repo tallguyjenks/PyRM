@@ -1,14 +1,14 @@
-name: 🐛️ Bug Report
-description: File a bug report
-title: "🐛️: "
-labels: ["🐛️ goal: fix", "🚦️ status: awaiting triage"]
+name: 📦 Feature Request
+description: Request A Feature
+title: "📦: "
+labels: ["✨️ goal: improve", "🚦️ status: awaiting triage"]
 #assignees:
 #  - octocat
 body:
   - type: markdown
     attributes:
       value: |
-        > Thanks for taking the time to fill out this bug report!
+        > Thanks for taking the time to help us improve!
   - type: input
     id: contact
     attributes:
@@ -18,31 +18,41 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: related-to-problem
     attributes:
-      label: What happened?
-      description: Please provide a clear and concise description of what the bug is and what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 0.0.1
-        - 0.0.2
-        - 0.0.3
+      label: Is your feature request related to a problem? 
+      description: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+      placeholder: Thank you for helping us improve!
+      value: "Please describe"
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: requested-solution
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell 
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
+      placeholder: Thank you for helping us improve!
+      value: "Please describe"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe alternatives you've considered
+      description: A clear and concise description of any alternative solutions or features you've considered.
+      placeholder: Thank you for helping us improve!
+      value: "Please describe"
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+      placeholder: Thank you for helping us improve!
+      value: "Please describe"
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
