@@ -1,0 +1,101 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.192.0/containers/python-3
+{
+	"name": "Python 3",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+		"args": { 
+			// Update 'VARIANT' to pick a Python version: 3, 3.6, 3.7, 3.8, 3.9
+			"VARIANT": "3.9",
+			// Options
+			"NODE_VERSION": "lts/*"
+		}
+	},
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": { 
+		"python.pythonPath": "/usr/local/bin/python",
+		"python.languageServer": "Pylance",
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": true,
+		"python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
+		"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
+		"python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
+		"python.linting.banditPath": "/usr/local/py-utils/bin/bandit",
+		"python.linting.flake8Path": "/usr/local/py-utils/bin/flake8",
+		"python.linting.mypyPath": "/usr/local/py-utils/bin/mypy",
+		"python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
+		"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
+		"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint"
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		//======================================================//
+        //                  Miscellanious Things                //
+        //======================================================//
+        "alefragnani.bookmarks", //............................... Bookmark Management
+        "coenraads.bracket-pair-colorizer-2", //.................. Colorize bracket pairs
+        "inu1255.easy-snippet", //................................ Easier interface for modification of snippets and thier use
+        "ms-vsliveshare.vsliveshare", //.......................... Live share for collab editing (Like google docs but for VSCode)
+        "4tron.stack-overflow-view", //........................... Easily Search for and open Stack Overflow from within VSCode
+        "visualstudioexptteam.vscodeintellicode", //.............. VSCode Intellisense++
+        "tabnine.tabnine-vscode", //.............................. Intelligent Auto completions
+        "wattenberger.footsteps", //.............................. Jump between edited lines and highlight them visually too
+        //======================================================//
+        //                     Git Tools                        //
+        //======================================================//
+        "mhutchie.git-graph", //.................................. Visual Git Graph
+        "eamodio.gitlens", //..................................... Make git easy to use. See history, Diffs, and run Commands without needing to know the CLI
+        "neilbarkhina.gitdownloadazurerepos", //.................. Easily download Azure Repos (Requires using a PAT)
+        "codezombiech.gitignore", //.............................. Language Support got .gitignore files
+        "felipecaputo.git-project-manager", //.................... Easily Hop to other Git Projects on your local machine
+        //======================================================//
+        //                   Markdown Management                //
+        //======================================================//
+        "shardulm94.trailing-spaces", //.......................... Remove Trailing spaces on document save
+        "yzhang.markdown-all-in-one",//........................... A Massive all in 1 markdown tool
+        "bierner.markdown-mermaid", //............................ Mermaid Chart Rendering
+        "bpruitt-goddard.mermaid-markdown-syntax-highlighting", // Code syntax highlighting
+        "takumii.markdowntable", //............................... Markdown Table Manipulation
+        "darkriszty.markdown-table-prettify", //.................. Align all table elements into an ordered structure for viewing AND editing
+        "mushan.vscode-paste-image", //........................... Make it so you can just paste images and they are added to a designated folder
+        "kisstkondoros.vscode-gutter-preview", //................. Image viewing on hover and in the gutter
+        "mdickin.markdown-shortcuts", //.......................... Shortcuts to help with editing like toggling bullet points
+        //======================================================//
+        //                Aesthetics and Visual Aids            //
+        //======================================================//
+        "oderwat.indent-rainbow", //.............................. Visually indent code with colored block columns
+        "mechatroner.rainbow-csv", //............................. If we View CSV files this makes for a great visual experience
+        "ibm.output-colorizer", //................................ Format the output in the VSCode Output pane
+        //======================================================//
+        //                    Task Management                   //
+        //======================================================//
+        "gruntfuggly.todo-tree", //............................... Task management that can be granularly defined with tags, icons, colors, etc.
+		//======================================================//
+        //                   All Things Python                  //
+        //======================================================//
+		"jithurjacob.nbpreviewer", //............................. Jupyter Notebook Support and Viewing
+        "ms-toolsai.jupyter", //.................................. Jupyter Notebook Support and Viewing
+        "ms-python.vscode-pylance", //............................ Language Support
+        "ms-python.python", //.................................... Language Support
+        "formulahendry.code-runner", //........................... Code runner to run the language for output and not just python code
+        "littlefoxteam.vscode-python-test-adapter", //............ Python unit tests
+        "kevinrose.vsc-python-indent", //......................... Auto sane indentation
+        "njpwerner.autodocstring", //............................. Auto Documentation doc strings
+        "dongli.python-preview", //............................... Preview Execution elements of python code
+        "njqdev.vscode-python-typehint", //....................... Static type auto completion
+        "brainfit.vscode-importmagic", //......................... Fix missing package imports
+        "almenon.arepl" //........................................ A Python REPL
+	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "pip3 install --user -r requirements.txt",
+
+	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode"
+}
