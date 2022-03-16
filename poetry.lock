@@ -193,7 +193,7 @@ testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.
 
 [[package]]
 name = "pytest-azurepipelines"
-version = "1.0.1"
+version = "1.0.3"
 description = "Formatting PyTest output for Azure Pipelines UI"
 category = "dev"
 optional = false
@@ -201,7 +201,7 @@ python-versions = ">=3.5"
 
 [package.dependencies]
 pytest = ">=5.0.0"
-pytest-nunit = ">=0.6.0"
+pytest-nunit = ">=1.0.0"
 
 [[package]]
 name = "pytest-cov"
@@ -220,15 +220,15 @@ testing = ["fields", "hunter", "process-tests", "six", "pytest-xdist", "virtuale
 
 [[package]]
 name = "pytest-nunit"
-version = "0.6.0"
+version = "1.0.0"
 description = "A pytest plugin for generating NUnit3 test result XML output"
 category = "dev"
 optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+python-versions = ">=3.6"
 
 [package.dependencies]
 attrs = "*"
-pytest = ">=3.5.0"
+pytest = ">=4.6.0"
 
 [[package]]
 name = "pyyaml"
@@ -294,7 +294,7 @@ dev = ["pytest (>=4.6.2)", "black (>=19.3b0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "6be8a89f97cc4dfb3b07b05446e9a0ceef871aab153313754d8b62147e303ae1"
+content-hash = "e2d92a250335aaca820ab908dacf88ebf31ff6c43c5e6eca3971bcfbf16620ba"
 
 [metadata.files]
 appdirs = [
@@ -409,16 +409,16 @@ pytest = [
     {file = "pytest-7.1.0.tar.gz", hash = "sha256:f1089d218cfcc63a212c42896f1b7fbf096874d045e1988186861a1a87d27b47"},
 ]
 pytest-azurepipelines = [
-    {file = "pytest-azurepipelines-1.0.1.tar.gz", hash = "sha256:51eb1219c3c46c93f092c3c83069a5fcfc51cefbf677cba38698c8c91d4cd32a"},
-    {file = "pytest_azurepipelines-1.0.1-py3-none-any.whl", hash = "sha256:9fee8b60b609347550c3f52225cd49c48c0e8a86a80aa10899e1eae36d3d1ae2"},
+    {file = "pytest-azurepipelines-1.0.3.tar.gz", hash = "sha256:225573ae479cb8f25d84b8d51c7e2bb037f9e89f35bf2950baad0b2385069506"},
+    {file = "pytest_azurepipelines-1.0.3-py3-none-any.whl", hash = "sha256:4a3a7aae3886cd620916454233b128306f6a5f1879809e652643e2c8b58501ff"},
 ]
 pytest-cov = [
     {file = "pytest-cov-3.0.0.tar.gz", hash = "sha256:e7f0f5b1617d2210a2cabc266dfe2f4c75a8d32fb89eafb7ad9d06f6d076d470"},
     {file = "pytest_cov-3.0.0-py3-none-any.whl", hash = "sha256:578d5d15ac4a25e5f961c938b85a05b09fdaae9deef3bb6de9a6e766622ca7a6"},
 ]
 pytest-nunit = [
-    {file = "pytest-nunit-0.6.0.tar.gz", hash = "sha256:c4a2b82ddc52f17c9b3966a76c764bf8d30c7d4502f343f1723da6434d21414e"},
-    {file = "pytest_nunit-0.6.0-py3-none-any.whl", hash = "sha256:63ec9c758eb194101e8dbd1dd989caded1cc408ddc29b9a0c1655cf044c69561"},
+    {file = "pytest-nunit-1.0.0.tar.gz", hash = "sha256:3c3e7a5396d0c3910c043d2d9aa4085777b21183d993e09b24411efb276aa10b"},
+    {file = "pytest_nunit-1.0.0-py3-none-any.whl", hash = "sha256:4c0ca4084096adb8566e605777135d2c534c542fb0063f21d54e7b01978a14ca"},
 ]
 pyyaml = [
     {file = "PyYAML-5.4.1-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:3b2b1824fe7112845700f815ff6a489360226a5609b96ec2190a45e62a9fc922"},
